@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Boss Fire Landing Page</title>
-  
+
   <!-- Meta Pixel Code -->
   <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '750029331287622'); 
-  fbq('track', 'PageView');
+    !function(f,b,e,v,n,t,s) {
+      if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    }(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '750029331287622');
+    fbq('track', 'PageView');
   </script>
   <!-- End Meta Pixel Code -->
 
@@ -33,9 +34,9 @@
       padding: 20px;
       box-sizing: border-box;
     }
-
     .container {
-      background: #222; /* Removed background image */
+      background: url('https://img.freepik.com/free-vector/hand-drawn-sadhu-illustration_23-2149732505.jpg') no-repeat center/cover;
+      background-size: cover;
       border-radius: 20px;
       overflow: hidden;
       width: 380px;
@@ -44,7 +45,6 @@
       text-align: center;
       padding-bottom: 20px;
     }
-
     .header {
       background: red;
       color: white;
@@ -52,30 +52,21 @@
       padding: 12px;
       font-size: 18px;
     }
-
     .stats {
       padding: 20px;
       text-align: left;
       font-size: 16px;
       line-height: 1.6;
     }
-
     .stats p {
       margin: 12px 0;
       font-weight: bold;
       display: flex;
       align-items: center;
     }
-
     .stats p span {
       margin-left: 10px;
     }
-
-    .stats img {
-      width: 22px;
-      height: 22px;
-    }
-
     .btn {
       display: inline-block;
       background: #007bff;
@@ -88,17 +79,14 @@
       text-decoration: none;
       transition: 0.3s;
     }
-
     .btn:hover {
       background: #0056b3;
     }
-
     .footer-img {
       width: 100%;
       border-top: 3px solid #444;
       margin-top: 10px;
     }
-
     .disclaimer {
       font-size: 12px;
       color: #bbb;
@@ -112,34 +100,24 @@
 <body>
   <div class="container">
     <div class="header">BOSS NAME NAHI BRAND HAI!!!</div>
-    
     <div class="stats">
       <p>🏆 <span>68/74 IPL Matches Passed Record</span></p>
-      <p>🏆 <span>34/37 Womens BBL Matches Passed Record</span></p>
+      <p>🏆 <span>34/37 Women’s BBL Matches Passed Record</span></p>
       <p>🏆 <span>42/44 Hundred Man Matches Passed Record</span></p>
     </div>
-    
+
     <!-- Button with Subscribe Event Tracker -->
-    <a href="https://t.me/+SKuAme9qcrUzNzE9" 
-       class="btn" 
+    <a href="https://t.me/+SKuAme9qcrUzNzE9"
+       class="btn"
        onclick="fbq('track', 'Subscribe');">
-       JOIN TELEGRAM
+      JOIN TELEGRAM
     </a>
 
-    <img src="https://via.placeholder.com/400x200" alt="Boss Image" class="footer-img">
+    <img src="https://via.placeholder.com/400x200"
+         alt="Boss Image"
+         class="footer-img" />
 
     <!-- Disclaimer -->
     <div class="disclaimer">
-      This website is for cricket discussion and insights only.  
-      No financial or betting advice is offered.  
-      Strictly – tips for entertainment purpose only.
-    </div>
-  </div>
-
-  <!-- Noscript Pixel -->
-  <noscript>
-    <img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=750029331287622&ev=PageView&noscript=1"/>
-  </noscript>
-</body>
-</html>
+      This website is for cricket discussion and insights only.<br>
+      No financial or betting advice is offered
